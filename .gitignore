@@ -1,0 +1,22 @@
+# Dossiers spécifiques à certains IDE
+.vscode/
+/.idea/
+/CMakeLists.txt.user
+
+# Codding style and other log files
+*.log
+
+# Fichiers d'éditeur (Vi, Emacs, etc.)
+*~
+*#
+
+# Fichier dependances
+node_modules/
+
+# binaire de tests
+*.gcda
+*.gcno
+*.out
+*.o
+.env
+.env
