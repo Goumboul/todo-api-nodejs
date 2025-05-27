@@ -53,26 +53,3 @@ A RESTful API built with **Node.js**, **Express**, and **MySQL** that allows use
 | POST   | /todos      | Create a new todo     |
 | PUT    | /todos/:id  | Update a todo         |
 | DELETE | /todos/:id  | Delete a todo         |
-
-## 📁 Project Structure
-
-```epytodo/
-├── config/ # Database configuration
-│ └── db.js
-├── controllers/ # Logic for route handlers
-│ ├── authController.js
-│ ├── todoController.js
-│ └── userController.js
-├── middleware/ # Middlewares (auth, validation)
-│ └── auth.js
-├── models/ # Database interaction functions
-│ ├── todoModel.js
-│ └── userModel.js
-├── routes/ # All route definitions
-│ ├── authRoutes.js
-│ ├── todoRoutes.js
-│ └── userRoutes.js
-├── utils/ # Utility functions (optional)
-├── app.js # Main entry point
-└── package.json # Project metadata and dependencies```
-
